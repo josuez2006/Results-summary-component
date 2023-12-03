@@ -1,8 +1,11 @@
 .results__overall {
     display: grid;
+    grid-template-rows: auto 1fr auto;
     justify-items: center;
+    gap: 2em;
 
     padding: 1.5em;
+    padding-bottom: 3em;
 
     background: linear-gradient(var(--clr-bg-gradient-200), var(--clr-bg-gradient-400));
 
@@ -17,6 +20,12 @@
     font-size: var(--fs-title);
     font-weight: var(--fw-bold);
     color: var(--clr-neutral-400);
+}
+
+.overall__text {
+    display: grid;
+    justify-items: center;
+    gap: 0.6em;
 }
 
 .overall__reaction {
@@ -48,6 +57,7 @@
     display: flex;    
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     color: var(--clr-neutral-400);
 
@@ -61,7 +71,7 @@
 
 
 /* Spacing */
-
+/* 
 .results__title {
     margin-bottom: 1.2em;
 }
@@ -72,5 +82,5 @@
 }
 
 .overall__info {
-    margin-bottom: 1em;
-}
+    margin-bottom: 0.5em;
+} */

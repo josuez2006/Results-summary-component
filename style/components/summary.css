@@ -82,4 +82,40 @@
     padding: 1em 0;
 
     width: 100%;
+
+    transition: scalate 100ms ease-in;
+}
+
+
+.summary__btn:hover {
+    background: linear-gradient(var(--clr-bg-gradient-200), var(--clr-bg-gradient-400));
+}
+
+.summary__btn:active {
+    scale: 0.9;
+}
+
+
+
+
+.summary__card:hover .card__icon{
+    animation: iconMovement 1s ease-in-out ;
+}
+
+@keyframes iconMovement {
+
+    19% {
+        scale: 0;
+    }
+
+    50% {
+        scale: 2;
+    }
+
+    100% {
+        scale: 0;
+    }
+
+
+    
 }

@@ -8,7 +8,14 @@
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <link rel="stylesheet" href="setup.css">
+  <link rel="stylesheet" href="/style/font-family.css">
+  <link rel="stylesheet" href="/style/setup.css">
+  <link rel="stylesheet" href="/style/style.css">
+
+  <link rel="stylesheet" href="/style/components/overall-results.css">
+  <link rel="stylesheet" href="/style/components/summary.css">
+  
+  <link rel="stylesheet" href="/style/components/desktop.css">
 </head>
 <body>
   <main class="results">
@@ -19,11 +26,15 @@
         of 100
       </div>
 
-      <p class="overall__info">
-        <span class="overall__reaction">Great</span>
-        You scored higher than 65% of the people who have taken these tests.
-      </p>
+      <div class="overall__text">
+        <div class="overall__reaction">Great</div>
+        <p class="overall__info">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
     </div>
+
+
 
     <div class="results__summary">
 
@@ -31,7 +42,7 @@
 
       <div class="summary__container">
 
-        <div class="sumary__card">
+        <div class="summary__card">
           <div class="card__left-container">
              <img class="card__icon" src="/assets/images/icon-reaction.svg" alt="thunder" />
              <h3 class="card__title">Reaction</h3>
@@ -42,7 +53,7 @@
           </span>
         </div>
         
-        <div class="sumary__card">
+        <div class="summary__card">
             <div class="card__left-container">
               <img class="card__icon" src="/assets/images/icon-memory.svg" alt="brain" />
               <h3 class="card__title">Memory</h3>
@@ -51,10 +62,9 @@
             <span class="card__right-container">
               <b>92</b> / 100
             </span>
-          </div>
         </div>
 
-        <div class="sumary__card">
+        <div class="summary__card">
             <div class="card__left-container">
               <img class="card__icon" src="/assets/images/icon-verbal.svg" alt="chat" />
               <h3 class="card__title">Verbal</h3>
@@ -63,10 +73,9 @@
             <span class="card__right-container">
               <b>61</b> / 100
             </span>
-          </div>
         </div>
 
-        <div class="sumary__card">
+        <div class="summary__card">
             <div class="card__left-container">
               <img class="card__icon" src="/assets/images/icon-visual.svg" alt="eye" />
               <h3 class="card__title">Visual</h3>
@@ -78,11 +87,10 @@
           </div>
         </div>
 
+      <button class="summary__btn" id="btn">Continue</button>
       </div>
 
-      <button class="summary__btn" id="btn">Continue</button>
 
-    </div>
 
   </main>
 

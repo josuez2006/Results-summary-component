@@ -1,0 +1,36 @@
+@media (min-width: 1080px) {
+    * {
+        --fs-huge: 4em
+    }
+
+    body {
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+    }
+
+    .results {
+        display: flex;
+        box-shadow: 10px 10px 25px 2px var(--clr-neutral-200);
+        border-radius: 32px;
+    }
+
+    .results__overall {
+        border-radius: 35px;
+
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .overall__reaction {
+        margin-bottom: 0;
+    }
+
+    .summary__card {
+        gap: 100px;
+    }
+
+    .results__summary {
+        padding-bottom: 1.8em;
+    }
+}

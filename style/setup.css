@@ -12,10 +12,17 @@
     --clr-neutral-400: hsl(241, 100%, 89%);
     --clr-neutral-900: hsl(224, 30%, 27%);
 
-    --clr-red: hsl(0, 100%, 67%);
-    --clr-yellow: hsl(39, 100%, 56%);
-    --clr-green: hsl(166, 100%, 37%);
-    --clr-blue:  hsl(234, 85%, 45%);
+    --clr-red-200: hsla(0, 100%, 67%, 0.08);
+    --clr-red-400: hsl(0, 100%, 67%);
+
+    --clr-yellow-200: hsla(39, 100%, 56%, 0.08);
+    --clr-yellow-400: hsl(39, 100%, 56%);
+
+    --clr-green-200: hsla(166, 100%, 37%, 0.08);
+    --clr-green-400: hsl(166, 100%, 37%);
+
+    --clr-blue-200:  hsla(234, 85%, 45%, 0.08);
+    --clr-blue-400:  hsl(234, 85%, 45%);
 
     --clr-bg-gradient-200: hsl(252, 100%, 67%);
     --clr-bg-gradient-400: hsl(241, 81%, 54%);
@@ -27,9 +34,9 @@
     /* Font sizes */
 
     --fs-400: 1.1em;
-    --fs-500: 1.4em;
-    --fs-700: 1.8em;
-    --fs-900: 2.5em;
+    --fs-500: 1.3em;
+    --fs-700: 1.6em;
+    --fs-900: 3.5em;
 
     --fs-title: var(--fs-500);
     --fs-body: var(--fs-400);
@@ -39,8 +46,8 @@
 
     /* Font weights */
 
-    --fs-medium: 500;
-    --fs-bold: 700;
-    --fs-extra-bold: 800;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
 
 }
