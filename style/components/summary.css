@@ -16,6 +16,12 @@
 
 }
 
+@media (min-width: 1080px) {
+    .summary__card {
+        gap: 100px;
+    }
+}
+
 [data-bg=accent-1] {
     background: var(--clr-red-200);
     color: var(--clr-red-400);
@@ -36,11 +42,11 @@
     color: var(--clr-blue-400);
 }
 
-.card__right-container {
+.card__data {
     color: var(--clr-neutral-400);
 }
 
-.card__right-container b {
+.card__data b {
     color: var(--clr-neutral-900);
 }
 
@@ -82,7 +88,7 @@
 
 
 
-.summary__card:hover .card__icon{
+.summary__card:hover .card__icon {
     animation: iconMovement 0.8s ease-in-out ;
 }
 
