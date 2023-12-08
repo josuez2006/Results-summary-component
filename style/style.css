@@ -3,10 +3,6 @@ body {
 }
 
 @media (min-width: 1080px) { 
-    * {
-        --fs-huge: 4em
-    }
-
     body {
         display: grid;
         place-content: center;
@@ -14,7 +10,8 @@ body {
     }
 
     .results-summary {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         box-shadow: 10px 10px 25px 2px var(--clr-neutral-200);
         border-radius: 32px;
     }

@@ -34,12 +34,12 @@
     /* Font sizes */
 
     --fs-400: 1.1em;
-    --fs-500: 1.3em;
-    --fs-700: 1.6em;
+    --fs-500: 1.25em;
+    --fs-700: 1.75em;
     --fs-900: 3.5em;
 
-    --fs-title: var(--fs-500);
     --fs-body: var(--fs-400);
+    --fs-title: var(--fs-500);
     --fs-large: var(--fs-700);
     --fs-huge: var(--fs-900);
 
@@ -50,4 +50,11 @@
     --fw-bold: 700;
     --fw-extra-bold: 800;
 
+}
+
+
+@media (min-width: 1080px) {
+    * {
+        --fs-huge: 4em;
+    }
 }

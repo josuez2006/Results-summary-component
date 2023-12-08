@@ -28,7 +28,7 @@
 /* Data circle */
 
 .results__data {
-    width: 12rem;
+    width: 10rem;
     aspect-ratio: 1;
 
     border-radius: 100%;
@@ -49,6 +49,10 @@
     .results {
         border-radius: 35px;
 
-        padding: 1.5rem 2rem 2rem 2rem;
+        padding: 1.8rem 2rem 0rem 2rem;
+    }
+
+    .results__data {
+        width: 12rem;
     }
 }

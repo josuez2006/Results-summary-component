@@ -4,6 +4,11 @@
     color: var(--clr-neutral-900);
 }
 
+@media (min-width: 1080px) {
+    .summary {
+        padding: 1.8rem
+    }
+}
 
 .summary__card {
     display: flex;
