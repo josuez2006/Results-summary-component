@@ -1,0 +1,19 @@
+.grid-flow {
+    display: grid;
+    align-items: center;
+    gap: 0.6em;
+}
+
+.grid-flow[data-spacing=large] {
+    gap: 2em;
+}
+
+.flex-flow {
+    display: flex;
+    gap: 0.8em;
+}
+
+.section-title {
+    font-size: var(--fs-title);
+    font-weight: var(--fw-bold);
+}
